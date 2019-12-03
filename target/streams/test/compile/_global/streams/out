@@ -1,0 +1,7 @@
+[0m[[0m[33mwarn[0m] [0m[0m/home/shouv/test/toolform/src/test/scala/au/com/agiledigital/toolform/app/ToolFormAppTest.scala:89:19: a type was inferred to be `Any`; this may indicate a programming error.[0m
+[0m[[0m[33mwarn[0m] [0m[0m    )(showVersion orElse parserOpts)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/shouv/test/toolform/src/test/scala/au/com/agiledigital/toolform/app/ToolFormAppTest.scala:91:55: method copyArrayToImmutableIndexedSeq in class LowPriorityImplicits2 is deprecated (since 2.13.0): Implicit conversions from Array to immutable.IndexedSeq are implemented by copying; Use the more efficient non-copying ArraySeq.unsafeWrapArray or an explicit toIndexedSeq call[0m
+[0m[[0m[33mwarn[0m] [0m[0m    val parseResult: Either[Help, Any] = parser.parse(args)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                      ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mtwo warnings found[0m

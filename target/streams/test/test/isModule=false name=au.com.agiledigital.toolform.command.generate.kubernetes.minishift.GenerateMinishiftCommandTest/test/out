@@ -1,0 +1,17 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mGenerateMinishiftCommandTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mrunGenerateMinishift[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should generate valid Kubernetes (Minishift flavour) specs for scenario: endpointroutes (392 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mrunGenerateMinishift[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should generate valid Kubernetes (Minishift flavour) specs for scenario: environment (22 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mrunGenerateMinishift[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should generate valid Kubernetes (Minishift flavour) specs for scenario: exposedports (15 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mrunGenerateMinishift[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should generate valid Kubernetes (Minishift flavour) specs for scenario: externalports (10 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mrunGenerateMinishift[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should generate valid Kubernetes (Minishift flavour) specs for scenario: pathalogicalnaming (12 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mrunGenerateMinishift[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should generate valid Kubernetes (Minishift flavour) specs for scenario: persistentvolumes (18 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mrunGenerateMinishift[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should generate valid Kubernetes (Minishift flavour) specs for scenario: realworldsample (18 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mrunGenerateMinishift[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should generate valid Kubernetes (Minishift flavour) specs for scenario: seti (12 milliseconds)[0m[0m

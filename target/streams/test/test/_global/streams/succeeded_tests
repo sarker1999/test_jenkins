@@ -1,0 +1,10 @@
+#Successful Tests
+#Mon Dec 02 09:58:02 AEDT 2019
+au.com.agiledigital.toolform.command.generate.kubernetes.VolumeClaimWriterTest=1575241082609
+au.com.agiledigital.toolform.command.generate.docker.GenerateDockerComposeV3CommandTest=1575241082826
+au.com.agiledigital.toolform.app.ToolFormAppTest=1575241082705
+au.com.agiledigital.toolform.reader.ProjectReaderTest=1575241082682
+au.com.agiledigital.toolform.command.inspect.InspectCommandTest=1575241082691
+au.com.agiledigital.toolform.command.generate.kubernetes.minishift.GenerateMinishiftCommandTest=1575241082838
+au.com.agiledigital.toolform.command.generate.kubernetes.minikube.GenerateMinikubeTest=1575241082876
+au.com.agiledigital.toolform.model.PortMappingTest=1575241082390

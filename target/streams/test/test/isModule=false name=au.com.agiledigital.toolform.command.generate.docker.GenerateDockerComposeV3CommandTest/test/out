@@ -1,0 +1,29 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mGenerateDockerComposeV3CommandTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mrunDockerComposeV3[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should generate valid Docker Compose v3 files for scenario: environment (372 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mrunDockerComposeV3[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should generate valid Docker Compose v3 files for scenario: exposedports (13 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mrunDockerComposeV3[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should generate valid Docker Compose v3 files for scenario: externalports (17 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mrunDockerComposeV3[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should generate valid Docker Compose v3 files for scenario: pathalogicalnaming (13 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mrunDockerComposeV3[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should generate valid Docker Compose v3 files for scenario: realworldsample (14 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mrunDockerComposeV3[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should generate valid Docker Compose v3 files for scenario: seti (12 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mgenerate docker output with invalid out dir[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail with error (11 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mwritePorts[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should write ports if exposedPorts is defined (2 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mwritePorts[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not write ports if exposedPorts is defined (1 millisecond)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mwritePorts[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not write anything if empty list of ports defined (1 millisecond)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mwriteEnvironmentVariables[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should write environment variables if environment is defined (1 millisecond)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mwriteEnvironmentVariables[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not write anything if empty map of environment variables defined (1 millisecond)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mwriteResources[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not write anything if an empty list of resources is provided (0 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mwriteComponents[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not write anything if an empty list of components is provided (0 milliseconds)[0m[0m

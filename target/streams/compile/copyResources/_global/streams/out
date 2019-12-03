@@ -1,0 +1,3 @@
+[0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/shouv/test/toolform/src/main/resources/META-INF/services/au.com.agiledigital.toolform.plugin.ToolFormCommandPlugin,/home/shouv/test/toolform/target/scala-2.13/classes/META-INF/services/au.com.agiledigital.toolform.plugin.ToolFormCommandPlugin)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/shouv/test/toolform/src/main/resources/META-INF/services/au.com.agiledigital.toolform.plugin.ToolFormGenerateCommandPlugin,/home/shouv/test/toolform/target/scala-2.13/classes/META-INF/services/au.com.agiledigital.toolform.plugin.ToolFormGenerateCommandPlugin)[0m
