@@ -1,0 +1,3 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mGenerateJenkinsFilesCommandTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mrunJenkinsfiles[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should generate valid Jenkins files for scenario: seti (2 seconds, 683 milliseconds)[0m[0m

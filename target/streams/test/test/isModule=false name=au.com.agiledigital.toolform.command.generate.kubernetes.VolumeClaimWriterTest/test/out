@@ -1,0 +1,21 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mVolumeClaimWriterTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mwriteAccessModes[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should write access mode if a correct access mode is defined (678 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mwriteAccessModes[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should write default access mode of ReadWriteOnce no access modes are defined (1 millisecond)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mwriteAccessModes[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should throw an exception if an incorrect access mode is defined (8 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mwriteAccessModes[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should throw an exception if multiple incorrect access mode are defined (1 millisecond)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mwriteAccessModes[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should throw an exception if no resource settings is defined (2 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mgetStorageSize[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should write default 2Gi if no size defined (1 millisecond)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mgetStorageSize[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should write storage size if size is defined (0 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mgetStorageSize[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should write 2Gi storage size if size is 'small' (0 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mgetStorageSize[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should write 5Gi storage size if size is 'medium' (1 millisecond)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mgetStorageSize[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should write 10Gi storage size if size is 'large' (0 milliseconds)[0m[0m

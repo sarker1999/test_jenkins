@@ -4,7 +4,7 @@
 		module="toolform_2.12"
 		revision="0.0.1-SNAPSHOT"
 		status="integration"
-		publication="20191202122548"
+		publication="20191205140139"
 	>
 		<description>
 		toolform
@@ -45,5 +45,6 @@
 		<dependency org="com.beachape" name="enumeratum_2.12" rev="1.5.12" conf="compile->default(compile)"/>
 		<dependency org="org.typelevel" name="cats-core_2.12" rev="0.9.0" conf="compile->default(compile)"/>
 		<dependency org="org.scalatra.scalate" name="scalate-core_2.12" rev="1.9.0" conf="compile->default(compile)"/>
+		<dependency org="com.jsuereth" name="scala-arm_2.12" rev="2.0" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>

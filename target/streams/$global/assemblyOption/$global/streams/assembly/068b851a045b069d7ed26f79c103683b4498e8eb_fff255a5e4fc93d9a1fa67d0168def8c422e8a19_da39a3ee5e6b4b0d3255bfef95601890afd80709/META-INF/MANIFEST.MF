@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: macros
+Implementation-Version: 0.0.5
+Specification-Vendor: org.typelevel
+Specification-Title: macros
+Implementation-Vendor-Id: org.typelevel
+Specification-Version: 0.0.5
+Implementation-URL: https://github.com/typelevel/catalysts
+Implementation-Vendor: org.typelevel
+

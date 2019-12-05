@@ -1,0 +1,11 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mPortMappingTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mparsePortMappingFromConfigString[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should parse a valid port string (480 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mparsePortMappingFromConfigString[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should throw an exception for an invalid port string (110 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mparsePortMappingFromConfigString[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should handle partial matching (56 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mparsePortMappingFromConfigString[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should always be able to parse its own output (171 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mparsePortMappingFromConfigString[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should always output the same string that is parsed in (3 milliseconds)[0m[0m

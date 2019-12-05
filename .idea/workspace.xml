@@ -26,6 +26,11 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="au.com.agiledigital.toolform.command.generate.jenkins" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -37,6 +42,18 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="SbtRunConfiguration" factoryName="sbt Task" nameIsGenerated="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="tasks" value="run" />
+      <option name="useSbtShell" value="true" />
+      <option name="vmparams" value="-Xms512M -Xmx1024M -Xss1M -XX:+CMSClassUnloadingEnabled" />
+      <option name="workingDir" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SbtLocalSettings">
     <option name="availableProjects">
@@ -65,7 +82,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="6300496891912" />
+        <entry key="$PROJECT_DIR$" value="6301389305330" />
         <entry key="$PROJECT_DIR$/build.sbt" value="751536426" />
         <entry key="$PROJECT_DIR$/project/Release.scala" value="3102950655" />
         <entry key="$PROJECT_DIR$/project/build.properties" value="2178301611" />

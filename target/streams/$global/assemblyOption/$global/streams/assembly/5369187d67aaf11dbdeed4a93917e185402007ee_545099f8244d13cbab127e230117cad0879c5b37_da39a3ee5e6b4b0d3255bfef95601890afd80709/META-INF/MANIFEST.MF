@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: decline
+Implementation-Version: 0.3.0
+Specification-Vendor: com.monovore
+Specification-Title: decline
+Implementation-Vendor-Id: com.monovore
+Specification-Version: 0.3.0
+Implementation-URL: http://monovore.com/decline
+Implementation-Vendor: com.monovore
+

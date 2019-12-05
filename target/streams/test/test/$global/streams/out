@@ -1,0 +1,27 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(au.com.agiledigital.toolform.command.generate.kubernetes.VolumeClaimWriterTest, org.scalatest.tools.Framework$$anon$1@8b28f5d, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(au.com.agiledigital.toolform.model.PortMappingTest, org.scalatest.tools.Framework$$anon$1@8b28f5d, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(au.com.agiledigital.toolform.command.generate.kubernetes.minishift.GenerateMinishiftCommandTest, org.scalatest.tools.Framework$$anon$1@8b28f5d, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(au.com.agiledigital.toolform.command.generate.docker.GenerateDockerComposeV3CommandTest, org.scalatest.tools.Framework$$anon$1@8b28f5d, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(au.com.agiledigital.toolform.reader.ProjectReaderTest, org.scalatest.tools.Framework$$anon$1@8b28f5d, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(au.com.agiledigital.toolform.command.generate.jenkins.GenerateJenkinsFilesCommandTest, org.scalatest.tools.Framework$$anon$1@8b28f5d, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(au.com.agiledigital.toolform.command.generate.kubernetes.minikube.GenerateMinikubeTest, org.scalatest.tools.Framework$$anon$1@8b28f5d, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(au.com.agiledigital.toolform.app.ToolFormAppTest, org.scalatest.tools.Framework$$anon$1@8b28f5d, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(au.com.agiledigital.toolform.command.inspect.InspectCommandTest, org.scalatest.tools.Framework$$anon$1@8b28f5d, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mSummary for ScalaCheck not available.[0m
+[0m[[0m[0minfo[0m] [0m[0mScalaTest[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 3 seconds, 293 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 62[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 9, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 62, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0mPassed: Total 62, Failed 0, Errors 0, Passed 62[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	au.com.agiledigital.toolform.app.ToolFormAppTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	au.com.agiledigital.toolform.command.inspect.InspectCommandTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	au.com.agiledigital.toolform.command.generate.kubernetes.minishift.GenerateMinishiftCommandTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	au.com.agiledigital.toolform.command.generate.kubernetes.minikube.GenerateMinikubeTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	au.com.agiledigital.toolform.command.generate.jenkins.GenerateJenkinsFilesCommandTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	au.com.agiledigital.toolform.command.generate.kubernetes.VolumeClaimWriterTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	au.com.agiledigital.toolform.reader.ProjectReaderTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	au.com.agiledigital.toolform.model.PortMappingTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	au.com.agiledigital.toolform.command.generate.docker.GenerateDockerComposeV3CommandTest[0m

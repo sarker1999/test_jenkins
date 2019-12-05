@@ -1,0 +1,11 @@
+[0m[[0m[0minfo[0m] [0m[0m:: delivering :: au.com.agiledigital#toolform_2.12;0.0.1-SNAPSHOT :: 0.0.1-SNAPSHOT :: integration :: Thu Dec 05 14:58:55 AEDT 2019[0m
+[0m[[0m[0mdebug[0m] [0m[0m	options = status=integration pubdate=Thu Dec 05 14:58:55 AEDT 2019 validate=true resolveDynamicRevisions=true merge=true resolveId=null pubBranch=null[0m
+[0m[[0m[0minfo[0m] [0m[0m	delivering ivy file to /mnt/c/Users/ShouvojitSarker/Documents/test_toolform/target/scala-2.12/ivy-0.0.1-SNAPSHOT.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	deliver done (30ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0mlocal do not support transaction. overwrite transaction not supported yet[0m
+[0m[[0m[0minfo[0m] [0m[0m	published toolform_2.12 to /home/shouv/.ivy2/local/au.com.agiledigital/toolform_2.12/0.0.1-SNAPSHOT/jars/toolform_2.12.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	published toolform_2.12 to /home/shouv/.ivy2/local/au.com.agiledigital/toolform_2.12/0.0.1-SNAPSHOT/docs/toolform_2.12-javadoc.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	published toolform_2.12 to /home/shouv/.ivy2/local/au.com.agiledigital/toolform_2.12/0.0.1-SNAPSHOT/jars/toolform_2.12-assembly.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	published toolform_2.12 to /home/shouv/.ivy2/local/au.com.agiledigital/toolform_2.12/0.0.1-SNAPSHOT/poms/toolform_2.12.pom[0m
+[0m[[0m[0minfo[0m] [0m[0m	published toolform_2.12 to /home/shouv/.ivy2/local/au.com.agiledigital/toolform_2.12/0.0.1-SNAPSHOT/srcs/toolform_2.12-sources.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	published ivy to /home/shouv/.ivy2/local/au.com.agiledigital/toolform_2.12/0.0.1-SNAPSHOT/ivys/ivy.xml[0m

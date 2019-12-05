@@ -1,0 +1,9 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mProjectReaderTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mreading a valid project[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return a Project model (1 second, 70 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32minspect blank file[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should display error string (35 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mreading file that does not exist[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should display error string (1 millisecond)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32minspect malformed file[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should display error string (6 milliseconds)[0m[0m

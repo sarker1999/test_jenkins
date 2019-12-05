@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: enumeratum
+Implementation-Version: 1.5.12
+Specification-Vendor: com.beachape
+Specification-Title: enumeratum
+Implementation-Vendor-Id: com.beachape
+Specification-Version: 1.5.12
+Implementation-Vendor: com.beachape
+

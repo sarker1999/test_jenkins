@@ -1,0 +1,14 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mToolFormAppTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32minspect command[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should display an inspect summary for a valid file (1 second, 186 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32minspect file that does not exist[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should display error string (34 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32minspect malformed file[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should display error string (27 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mbad argument[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should display error string (15 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32minspect with missing argument option[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should display error string (12 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should fail if no arguments are specified (19 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mplugin loader[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should load the inspect plugin (13 milliseconds)[0m[0m

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite 
+errors="0" failures="0" hostname="DESKTOP-279MANB" name="au.com.agiledigital.toolform.command.generate.jenkins.GenerateJenkinsFilesCommandTest" tests="1" time="2.73" timestamp="2019-12-05T14:58:12">
+  <properties>
+    <property name="jline.esc.timeout" value="0"> </property>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment">
+    </property>
+    <property 
+    name="java.vm.version" value="11.0.4+11-post-Ubuntu-1ubuntu218.04.3">
+</property>
+    <property 
+    name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib">
+</property>
+    <property name="java.vm.vendor" value="Ubuntu"> </property>
+    <property name="java.vendor.url" value="https://ubuntu.com/"> </property>
+    <property name="path.separator" value=":"> </property>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"> </property>
+    <property name="sun.os.patch.level" value="unknown"> </property>
+    <property name="sun.java.launcher" value="SUN_STANDARD"> </property>
+    <property 
+    name="java.vm.specification.name" value="Java Virtual Machine Specification">
+</property>
+    <property 
+    name="user.dir" value="/mnt/c/Users/ShouvojitSarker/Documents/test_toolform">
+</property>
+    <property name="java.vm.compressedOopsMode" value="32-bit"> </property>
+    <property 
+    name="java.runtime.version" value="11.0.4+11-post-Ubuntu-1ubuntu218.04.3">
+</property>
+    <property 
+    name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment">
+</property>
+    <property name="os.arch" value="amd64"> </property>
+    <property name="java.io.tmpdir" value="/tmp"> </property>
+    <property name="line.separator" value=" "> </property>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation">
+    </property>
+    <property name="os.name" value="Linux"> </property>
+    <property name="sun.jnu.encoding" value="UTF-8"> </property>
+    <property 
+    name="scala.ext.dirs" value="/home/shouv/.sbt/0.13/java9-rt-ext-ubuntu_11_0_4">
+</property>
+    <property 
+    name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib">
+</property>
+    <property name="jdk.debug" value="release"> </property>
+    <property name="java.class.version" value="55.0"> </property>
+    <property 
+    name="java.specification.name" value="Java Platform API Specification">
+</property>
+    <property 
+    name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers">
+</property>
+    <property name="os.version" value="4.4.0-18362-Microsoft"> </property>
+    <property name="user.home" value="/home/shouv"> </property>
+    <property name="user.timezone" value="Australia/Sydney"> </property>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob">
+    </property>
+    <property name="file.encoding" value="UTF-8"> </property>
+    <property name="java.specification.version" value="11"> </property>
+    <property name="user.name" value="shouv"> </property>
+    <property name="java.class.path" value="/usr/share/sbt/bin/sbt-launch.jar">
+    </property>
+    <property name="jline.shutdownhook" value="false"> </property>
+    <property name="java.vm.specification.version" value="11"> </property>
+    <property name="sun.arch.data.model" value="64"> </property>
+    <property 
+    name="sun.java.command" value="/usr/share/sbt/bin/sbt-launch.jar publishLocal">
+</property>
+    <property name="java.home" value="/usr/lib/jvm/java-11-openjdk-amd64">
+    </property>
+    <property name="user.language" value="en"> </property>
+    <property name="java.specification.vendor" value="Oracle Corporation">
+    </property>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"> </property>
+    <property name="java.vm.info" value="mixed mode, sharing"> </property>
+    <property name="java.version" value="11.0.4"> </property>
+    <property name="java.vendor" value="Ubuntu"> </property>
+    <property name="file.separator" value="/"> </property>
+    <property name="java.version.date" value="2019-07-16"> </property>
+    <property 
+    name="java.vendor.url.bug" value="https://bugs.launchpad.net/ubuntu/+source/openjdk-lts">
+</property>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"> </property>
+    <property name="sun.cpu.endian" value="little"> </property>
+    <property name="sun.cpu.isalist" value=""> </property>
+  </properties>
+  <testcase 
+  name="runJenkinsfiles should generate valid Jenkins files for scenario: seti" classname="au.com.agiledigital.toolform.command.generate.jenkins.GenerateJenkinsFilesCommandTest" time="2.681">
+</testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

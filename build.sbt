@@ -28,7 +28,8 @@ libraryDependencies ++= Seq(
   "com.monovore"          %% "decline"               % "0.3.0",
   "com.beachape"          %% "enumeratum"            % "1.5.12",
   "org.typelevel"         %% "cats-core"             % "0.9.0",
-  "org.scalatra.scalate"  %% "scalate-core"          % "1.9.0"
+  "org.scalatra.scalate"  %% "scalate-core"          % "1.9.0",
+  "com.jsuereth"          %% "scala-arm"             % "2.0"
 )
 
 // For Settings/Task reference, see http://www.scala-sbt.org/release/sxr/sbt/Keys.scala.html

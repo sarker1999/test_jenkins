@@ -1,5 +1,5 @@
 [0m[[0m[0minfo[0m] [0m[0m[32mInspectCommandTest:[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32minspect plugin[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- should display an inspect summary for a valid file (351 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should display an inspect summary for a valid file (1 second, 149 milliseconds)[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32merror when reading project[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- should display error string (17 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should display error string (84 milliseconds)[0m[0m
