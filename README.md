@@ -243,4 +243,53 @@ The following steps outline how to generate a standalone launcher.
         toolform generate
     ...
 
-You can also create a standalone binary from an existing published Toolform version by modifying the [/scripts/generate-launcher.sh](https://github.com/agiledigital/toolform/blob/master/scripts/generate-launcher.sh) script to specify an already published version. Coursier will download the published maven package from Maven Central and generate the executable from that.
+Creating a fresh jenkins installation and using config maps generated from toolform
+========================================================================================
+
+Install a fresh Jenkins and configure it
+
+1. Install helm  
+ For Windows powershell  
+    `choco install kubernetes-helm`  
+ For ubuntu  
+    `snap install helm`  
+ For windows subsystem for linux  
+    `$ curl https://raw.githubusercontent.com/helm/helm/master/scripts/get-helm-3 > get_helm.sh`  
+    `$ chmod 700 get_helm.sh`  
+    `$ ./get_helm.sh`  
+
+2. Then add the stable chart repo to helm (https://kubernetes-charts.storage.googleapis.com/)  
+
+    `helm repo add stable`
+    
+3. Run the following command to set up initial basic configuration for jenkins. Replace `$whoami` with custom name if you want a custom namespace.
+    `helm template $(whoami) stable/jenkins --set namespaceOverride=$(whoami)-jenkins --set master.testEnabled=false --set master.ingress.enabled=true --set master.ingress.hostName=jenkins.local  | kubectl apply -f -`
+ 
+4. Now let's get the password for jenkins  
+
+    `kubectl get secrets $(whoami)-jenkins -n $(whoami)-jenkins -o=yaml | grep jenkins-admin-password:| tr -s " " | cut -d ' ' -f 3 | base64 --decode`  
+
+5. Port forward to localhost using the following command  
+
+    `kubectl port-forward $(kubectl get pods -n $(whoami)-jenkins | grep $(whoami)-jenkins | cut -f 1 -d ' ' ) 8080:8080 -n $(whoami)-jenkins`  
+    If using windows powershell, the above command will not work as expected. In that case, seperately get the name of the pod using the following command  
+    `kubectl get pods -n 'namespace'`  
+    Then use the following command to port forward  
+    `kubectl port-forward -n namespace podname 8081:8080`
+    
+The commands above will install jenkins with basic configurations. Now it is time to add customised configurations  
+
+1. Log into jenkins. It would take you directly to Manage Jenkins page if logging in for the first time. Click on Configure System  
+2. Navigate to Jenkins Location. Fill in the System Admin e-mail address.
+3. Navigate to Global Pipeline Libraries and click on Add to add a library required by the project. The libraries specified at this stage will be global libraries accessible to all the project folders on this particular jenkins installation. There is also option to define libraries within the scope of a folder (project)  
+4. In order to add a pipeline library from github or bitbucket, the relevant plugin needs to be enabled. Click on Jenkins home icon and then on the left bar, click on Manage Jenkins. Then on the page that comes up, click on Manage Plugins. Navigate to the Available tab and then search for github. Click and install github authentication plugin from the list of plugin that comes up. For bitbucket, search and install Bitbucket OAuth. The following plugins are commonly used with these pipelines  
+    
+    `cloudbees-bitbucket-branch-source:2.6.0`  
+    `github-branch-source:2.5.8`  
+    `slack:2.34`  
+    `ansicolor:0.6.2`  
+    `config-file-provider:3.6.2`  
+    `cobertura:1.15`
+
+5. Credentials need to be entered separately in order to be able to access these repos. To add a credential, go to Jenkins home page and then click on Credentials on the left bar. Then click on System and on the new page that comes up, click on Global credentials. This new page will display all the existing credentials (if any). On the left bar, click on Add Credentials. A form will come up, fill it out with relevant credential details and click ok. This will add the credential and make it accessible on the Source code management section of the Configure page.  
+6. 

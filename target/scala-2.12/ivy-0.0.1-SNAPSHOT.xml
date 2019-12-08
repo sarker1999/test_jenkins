@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ivy-module version="2.0" xmlns:e="http://ant.apache.org/ivy/extra">
-	<info organisation="au.com.agiledigital" module="toolform_2.12" revision="0.0.1-SNAPSHOT" status="integration" publication="20191205145855">
+	<info organisation="au.com.agiledigital" module="toolform_2.12" revision="0.0.1-SNAPSHOT" status="integration" publication="20191206171212">
 		<description>
 		toolform
 		</description>

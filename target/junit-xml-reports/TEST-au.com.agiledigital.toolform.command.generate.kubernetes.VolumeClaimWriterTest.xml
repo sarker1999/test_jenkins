@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuite 
-errors="0" failures="0" hostname="DESKTOP-279MANB" name="au.com.agiledigital.toolform.command.generate.kubernetes.VolumeClaimWriterTest" tests="10" time="0.883" timestamp="2019-12-05T14:58:12">
+errors="0" failures="0" hostname="DESKTOP-279MANB" name="au.com.agiledigital.toolform.command.generate.kubernetes.VolumeClaimWriterTest" tests="10" time="0.69" timestamp="2019-12-06T17:11:48">
   <properties>
     <property name="jline.esc.timeout" value="0"> </property>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment">
@@ -86,16 +86,16 @@ errors="0" failures="0" hostname="DESKTOP-279MANB" name="au.com.agiledigital.too
     <property name="sun.cpu.isalist" value=""> </property>
   </properties>
   <testcase 
-  name="writeAccessModes should write access mode if a correct access mode is defined" classname="au.com.agiledigital.toolform.command.generate.kubernetes.VolumeClaimWriterTest" time="0.789">
+  name="writeAccessModes should write access mode if a correct access mode is defined" classname="au.com.agiledigital.toolform.command.generate.kubernetes.VolumeClaimWriterTest" time="0.619">
 </testcase>
   <testcase 
-  name="writeAccessModes should write default access mode of ReadWriteOnce no access modes are defined" classname="au.com.agiledigital.toolform.command.generate.kubernetes.VolumeClaimWriterTest" time="0.001">
+  name="writeAccessModes should write default access mode of ReadWriteOnce no access modes are defined" classname="au.com.agiledigital.toolform.command.generate.kubernetes.VolumeClaimWriterTest" time="0.0">
 </testcase>
   <testcase 
-  name="writeAccessModes should throw an exception if an incorrect access mode is defined" classname="au.com.agiledigital.toolform.command.generate.kubernetes.VolumeClaimWriterTest" time="0.028">
+  name="writeAccessModes should throw an exception if an incorrect access mode is defined" classname="au.com.agiledigital.toolform.command.generate.kubernetes.VolumeClaimWriterTest" time="0.015">
 </testcase>
   <testcase 
-  name="writeAccessModes should throw an exception if multiple incorrect access mode are defined" classname="au.com.agiledigital.toolform.command.generate.kubernetes.VolumeClaimWriterTest" time="0.002">
+  name="writeAccessModes should throw an exception if multiple incorrect access mode are defined" classname="au.com.agiledigital.toolform.command.generate.kubernetes.VolumeClaimWriterTest" time="0.001">
 </testcase>
   <testcase 
   name="writeAccessModes should throw an exception if no resource settings is defined" classname="au.com.agiledigital.toolform.command.generate.kubernetes.VolumeClaimWriterTest" time="0.001">
@@ -104,16 +104,16 @@ errors="0" failures="0" hostname="DESKTOP-279MANB" name="au.com.agiledigital.too
   name="getStorageSize should write default 2Gi if no size defined" classname="au.com.agiledigital.toolform.command.generate.kubernetes.VolumeClaimWriterTest" time="0.001">
 </testcase>
   <testcase 
-  name="getStorageSize should write storage size if size is defined" classname="au.com.agiledigital.toolform.command.generate.kubernetes.VolumeClaimWriterTest" time="0.0">
+  name="getStorageSize should write storage size if size is defined" classname="au.com.agiledigital.toolform.command.generate.kubernetes.VolumeClaimWriterTest" time="0.001">
 </testcase>
   <testcase 
   name="getStorageSize should write 2Gi storage size if size is 'small'" classname="au.com.agiledigital.toolform.command.generate.kubernetes.VolumeClaimWriterTest" time="0.0">
 </testcase>
   <testcase 
-  name="getStorageSize should write 5Gi storage size if size is 'medium'" classname="au.com.agiledigital.toolform.command.generate.kubernetes.VolumeClaimWriterTest" time="0.001">
+  name="getStorageSize should write 5Gi storage size if size is 'medium'" classname="au.com.agiledigital.toolform.command.generate.kubernetes.VolumeClaimWriterTest" time="0.0">
 </testcase>
   <testcase 
-  name="getStorageSize should write 10Gi storage size if size is 'large'" classname="au.com.agiledigital.toolform.command.generate.kubernetes.VolumeClaimWriterTest" time="0.001">
+  name="getStorageSize should write 10Gi storage size if size is 'large'" classname="au.com.agiledigital.toolform.command.generate.kubernetes.VolumeClaimWriterTest" time="0.0">
 </testcase>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuite 
-errors="0" failures="0" hostname="DESKTOP-279MANB" name="au.com.agiledigital.toolform.command.inspect.InspectCommandTest" tests="2" time="1.304" timestamp="2019-12-05T14:58:12">
+errors="0" failures="0" hostname="DESKTOP-279MANB" name="au.com.agiledigital.toolform.command.inspect.InspectCommandTest" tests="2" time="1.006" timestamp="2019-12-06T17:11:48">
   <properties>
     <property name="jline.esc.timeout" value="0"> </property>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment">
@@ -86,10 +86,10 @@ errors="0" failures="0" hostname="DESKTOP-279MANB" name="au.com.agiledigital.too
     <property name="sun.cpu.isalist" value=""> </property>
   </properties>
   <testcase 
-  name="inspect plugin should display an inspect summary for a valid file" classname="au.com.agiledigital.toolform.command.inspect.InspectCommandTest" time="1.19">
+  name="inspect plugin should display an inspect summary for a valid file" classname="au.com.agiledigital.toolform.command.inspect.InspectCommandTest" time="0.897">
 </testcase>
   <testcase 
-  name="error when reading project should display error string" classname="au.com.agiledigital.toolform.command.inspect.InspectCommandTest" time="0.063">
+  name="error when reading project should display error string" classname="au.com.agiledigital.toolform.command.inspect.InspectCommandTest" time="0.068">
 </testcase>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

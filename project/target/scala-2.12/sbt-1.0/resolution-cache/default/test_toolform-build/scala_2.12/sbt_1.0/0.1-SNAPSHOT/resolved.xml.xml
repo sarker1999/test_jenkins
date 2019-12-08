@@ -4,7 +4,7 @@
 		module="test_toolform-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20191204133540"
+		publication="20191206171142"
 		e:sbtVersion="1.0" e:scalaVersion="2.12"
 	>
 		<description>

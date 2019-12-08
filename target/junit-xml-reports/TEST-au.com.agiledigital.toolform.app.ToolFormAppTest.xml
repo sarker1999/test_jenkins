@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuite 
-errors="0" failures="0" hostname="DESKTOP-279MANB" name="au.com.agiledigital.toolform.app.ToolFormAppTest" tests="7" time="1.324" timestamp="2019-12-05T14:58:12">
+errors="0" failures="0" hostname="DESKTOP-279MANB" name="au.com.agiledigital.toolform.app.ToolFormAppTest" tests="7" time="1.049" timestamp="2019-12-06T17:11:48">
   <properties>
     <property name="jline.esc.timeout" value="0"> </property>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment">
@@ -86,25 +86,25 @@ errors="0" failures="0" hostname="DESKTOP-279MANB" name="au.com.agiledigital.too
     <property name="sun.cpu.isalist" value=""> </property>
   </properties>
   <testcase 
-  name="inspect command should display an inspect summary for a valid file" classname="au.com.agiledigital.toolform.app.ToolFormAppTest" time="1.191">
+  name="inspect command should display an inspect summary for a valid file" classname="au.com.agiledigital.toolform.app.ToolFormAppTest" time="0.904">
 </testcase>
   <testcase 
-  name="inspect file that does not exist should display error string" classname="au.com.agiledigital.toolform.app.ToolFormAppTest" time="0.031">
+  name="inspect file that does not exist should display error string" classname="au.com.agiledigital.toolform.app.ToolFormAppTest" time="0.043">
 </testcase>
   <testcase 
-  name="inspect malformed file should display error string" classname="au.com.agiledigital.toolform.app.ToolFormAppTest" time="0.011">
+  name="inspect malformed file should display error string" classname="au.com.agiledigital.toolform.app.ToolFormAppTest" time="0.022">
 </testcase>
   <testcase 
-  name="bad argument should display error string" classname="au.com.agiledigital.toolform.app.ToolFormAppTest" time="0.008">
+  name="bad argument should display error string" classname="au.com.agiledigital.toolform.app.ToolFormAppTest" time="0.007">
 </testcase>
   <testcase 
-  name="inspect with missing argument option should display error string" classname="au.com.agiledigital.toolform.app.ToolFormAppTest" time="0.01">
+  name="inspect with missing argument option should display error string" classname="au.com.agiledigital.toolform.app.ToolFormAppTest" time="0.007">
 </testcase>
   <testcase 
   name="inspect with missing argument option should fail if no arguments are specified" classname="au.com.agiledigital.toolform.app.ToolFormAppTest" time="0.006">
 </testcase>
   <testcase 
-  name="plugin loader should load the inspect plugin" classname="au.com.agiledigital.toolform.app.ToolFormAppTest" time="0.01">
+  name="plugin loader should load the inspect plugin" classname="au.com.agiledigital.toolform.app.ToolFormAppTest" time="0.008">
 </testcase>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

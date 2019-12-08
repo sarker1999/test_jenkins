@@ -1,7 +1,7 @@
-{{libraries}}
+library 'play26-jenkins-library'
 
-project = "{{projectName}}"
-projectShort = "{{projectName}}"
+project = "se-swip"
+projectShort = "se-swip"
 
 @NonCPS def uniqueBy(List items, String key) {
   return items.unique { a,b -> a[key] <=> b[key]}
@@ -29,7 +29,7 @@ def notifySlack(String buildStatus = 'STARTED') {
 }
 
 def volumes = [
-  {{{volumes}}}
+  play26BuilderPersistentVolumes(project: "${project}")
 ].flatten()
 
 def volumeClaims = uniqueBy(volumes, 'path').collect { volume ->
@@ -45,19 +45,29 @@ def containers = [
     image: 'openshift/jenkins-slave-base-centos7:v3.7',
     args: '${computer.jnlpmac} ${computer.name}'
   )],
-  {{{containers}}}
+  play26BuilderContainerTemplate()
 ].flatten()
 
 def buildNumber = env.BUILD_NUMBER;
 
-podTemplate(label: "{{label}}", cloud: 'openshift', containers: containers, volumes: volumeClaims, runAsUser: '1000') {
-  node("{{label}}") {
+podTemplate(label: "se-swip-build-pod", cloud: 'openshift', containers: containers, volumes: volumeClaims, runAsUser: '1000') {
+  node("se-swip-build-pod") {
 
     final builds = [:]
     final buildStage = (env.BRANCH_NAME == 'master') ? 'dist' : 'test'
     def gitCommitHash = "unknown"
 
-    {{{builds}}}
+    builds["Build Play26 Components"] = {
+buildPlay26Component(
+   baseDir: "some/component",
+   project: "${project}",
+   component: "some-component",
+   buildNumber: buildNumber,
+   stage: buildStage
+   
+   
+ )
+}
 
     try {
       stage('Notify Slack') {

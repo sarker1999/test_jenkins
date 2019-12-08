@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuite 
-errors="0" failures="0" hostname="DESKTOP-279MANB" name="au.com.agiledigital.toolform.command.generate.kubernetes.minishift.GenerateMinishiftCommandTest" tests="8" time="1.535" timestamp="2019-12-05T14:58:12">
+errors="0" failures="0" hostname="DESKTOP-279MANB" name="au.com.agiledigital.toolform.command.generate.kubernetes.minishift.GenerateMinishiftCommandTest" tests="8" time="1.209" timestamp="2019-12-06T17:11:48">
   <properties>
     <property name="jline.esc.timeout" value="0"> </property>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment">
@@ -86,28 +86,28 @@ errors="0" failures="0" hostname="DESKTOP-279MANB" name="au.com.agiledigital.too
     <property name="sun.cpu.isalist" value=""> </property>
   </properties>
   <testcase 
-  name="runGenerateMinishift should generate valid Kubernetes (Minishift flavour) specs for scenario: endpointroutes" classname="au.com.agiledigital.toolform.command.generate.kubernetes.minishift.GenerateMinishiftCommandTest" time="1.292">
+  name="runGenerateMinishift should generate valid Kubernetes (Minishift flavour) specs for scenario: endpointroutes" classname="au.com.agiledigital.toolform.command.generate.kubernetes.minishift.GenerateMinishiftCommandTest" time="1.018">
 </testcase>
   <testcase 
-  name="runGenerateMinishift should generate valid Kubernetes (Minishift flavour) specs for scenario: environment" classname="au.com.agiledigital.toolform.command.generate.kubernetes.minishift.GenerateMinishiftCommandTest" time="0.016">
+  name="runGenerateMinishift should generate valid Kubernetes (Minishift flavour) specs for scenario: environment" classname="au.com.agiledigital.toolform.command.generate.kubernetes.minishift.GenerateMinishiftCommandTest" time="0.014">
 </testcase>
   <testcase 
-  name="runGenerateMinishift should generate valid Kubernetes (Minishift flavour) specs for scenario: exposedports" classname="au.com.agiledigital.toolform.command.generate.kubernetes.minishift.GenerateMinishiftCommandTest" time="0.017">
+  name="runGenerateMinishift should generate valid Kubernetes (Minishift flavour) specs for scenario: exposedports" classname="au.com.agiledigital.toolform.command.generate.kubernetes.minishift.GenerateMinishiftCommandTest" time="0.016">
 </testcase>
   <testcase 
-  name="runGenerateMinishift should generate valid Kubernetes (Minishift flavour) specs for scenario: externalports" classname="au.com.agiledigital.toolform.command.generate.kubernetes.minishift.GenerateMinishiftCommandTest" time="0.017">
+  name="runGenerateMinishift should generate valid Kubernetes (Minishift flavour) specs for scenario: externalports" classname="au.com.agiledigital.toolform.command.generate.kubernetes.minishift.GenerateMinishiftCommandTest" time="0.014">
 </testcase>
   <testcase 
-  name="runGenerateMinishift should generate valid Kubernetes (Minishift flavour) specs for scenario: pathalogicalnaming" classname="au.com.agiledigital.toolform.command.generate.kubernetes.minishift.GenerateMinishiftCommandTest" time="0.016">
+  name="runGenerateMinishift should generate valid Kubernetes (Minishift flavour) specs for scenario: pathalogicalnaming" classname="au.com.agiledigital.toolform.command.generate.kubernetes.minishift.GenerateMinishiftCommandTest" time="0.018">
 </testcase>
   <testcase 
-  name="runGenerateMinishift should generate valid Kubernetes (Minishift flavour) specs for scenario: persistentvolumes" classname="au.com.agiledigital.toolform.command.generate.kubernetes.minishift.GenerateMinishiftCommandTest" time="0.048">
+  name="runGenerateMinishift should generate valid Kubernetes (Minishift flavour) specs for scenario: persistentvolumes" classname="au.com.agiledigital.toolform.command.generate.kubernetes.minishift.GenerateMinishiftCommandTest" time="0.036">
 </testcase>
   <testcase 
-  name="runGenerateMinishift should generate valid Kubernetes (Minishift flavour) specs for scenario: realworldsample" classname="au.com.agiledigital.toolform.command.generate.kubernetes.minishift.GenerateMinishiftCommandTest" time="0.05">
+  name="runGenerateMinishift should generate valid Kubernetes (Minishift flavour) specs for scenario: realworldsample" classname="au.com.agiledigital.toolform.command.generate.kubernetes.minishift.GenerateMinishiftCommandTest" time="0.024">
 </testcase>
   <testcase 
-  name="runGenerateMinishift should generate valid Kubernetes (Minishift flavour) specs for scenario: seti" classname="au.com.agiledigital.toolform.command.generate.kubernetes.minishift.GenerateMinishiftCommandTest" time="0.027">
+  name="runGenerateMinishift should generate valid Kubernetes (Minishift flavour) specs for scenario: seti" classname="au.com.agiledigital.toolform.command.generate.kubernetes.minishift.GenerateMinishiftCommandTest" time="0.019">
 </testcase>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

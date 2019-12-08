@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuite 
-errors="0" failures="0" hostname="DESKTOP-279MANB" name="au.com.agiledigital.toolform.model.PortMappingTest" tests="5" time="0.934" timestamp="2019-12-05T14:58:12">
+errors="0" failures="0" hostname="DESKTOP-279MANB" name="au.com.agiledigital.toolform.model.PortMappingTest" tests="5" time="0.714" timestamp="2019-12-06T17:11:48">
   <properties>
     <property name="jline.esc.timeout" value="0"> </property>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment">
@@ -86,19 +86,19 @@ errors="0" failures="0" hostname="DESKTOP-279MANB" name="au.com.agiledigital.too
     <property name="sun.cpu.isalist" value=""> </property>
   </properties>
   <testcase 
-  name="parsePortMappingFromConfigString should parse a valid port string" classname="au.com.agiledigital.toolform.model.PortMappingTest" time="0.481">
+  name="parsePortMappingFromConfigString should parse a valid port string" classname="au.com.agiledigital.toolform.model.PortMappingTest" time="0.335">
 </testcase>
   <testcase 
-  name="parsePortMappingFromConfigString should throw an exception for an invalid port string" classname="au.com.agiledigital.toolform.model.PortMappingTest" time="0.11">
+  name="parsePortMappingFromConfigString should throw an exception for an invalid port string" classname="au.com.agiledigital.toolform.model.PortMappingTest" time="0.058">
 </testcase>
   <testcase 
-  name="parsePortMappingFromConfigString should handle partial matching" classname="au.com.agiledigital.toolform.model.PortMappingTest" time="0.056">
+  name="parsePortMappingFromConfigString should handle partial matching" classname="au.com.agiledigital.toolform.model.PortMappingTest" time="0.063">
 </testcase>
   <testcase 
-  name="parsePortMappingFromConfigString should always be able to parse its own output" classname="au.com.agiledigital.toolform.model.PortMappingTest" time="0.171">
+  name="parsePortMappingFromConfigString should always be able to parse its own output" classname="au.com.agiledigital.toolform.model.PortMappingTest" time="0.187">
 </testcase>
   <testcase 
-  name="parsePortMappingFromConfigString should always output the same string that is parsed in" classname="au.com.agiledigital.toolform.model.PortMappingTest" time="0.003">
+  name="parsePortMappingFromConfigString should always output the same string that is parsed in" classname="au.com.agiledigital.toolform.model.PortMappingTest" time="0.002">
 </testcase>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

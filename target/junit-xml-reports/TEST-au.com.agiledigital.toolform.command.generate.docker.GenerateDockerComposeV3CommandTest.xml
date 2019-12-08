@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuite 
-errors="0" failures="0" hostname="DESKTOP-279MANB" name="au.com.agiledigital.toolform.command.generate.docker.GenerateDockerComposeV3CommandTest" tests="14" time="1.421" timestamp="2019-12-05T14:58:12">
+errors="0" failures="0" hostname="DESKTOP-279MANB" name="au.com.agiledigital.toolform.command.generate.docker.GenerateDockerComposeV3CommandTest" tests="14" time="1.14" timestamp="2019-12-06T17:11:48">
   <properties>
     <property name="jline.esc.timeout" value="0"> </property>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment">
@@ -86,37 +86,37 @@ errors="0" failures="0" hostname="DESKTOP-279MANB" name="au.com.agiledigital.too
     <property name="sun.cpu.isalist" value=""> </property>
   </properties>
   <testcase 
-  name="runDockerComposeV3 should generate valid Docker Compose v3 files for scenario: environment" classname="au.com.agiledigital.toolform.command.generate.docker.GenerateDockerComposeV3CommandTest" time="1.224">
+  name="runDockerComposeV3 should generate valid Docker Compose v3 files for scenario: environment" classname="au.com.agiledigital.toolform.command.generate.docker.GenerateDockerComposeV3CommandTest" time="0.959">
 </testcase>
   <testcase 
-  name="runDockerComposeV3 should generate valid Docker Compose v3 files for scenario: exposedports" classname="au.com.agiledigital.toolform.command.generate.docker.GenerateDockerComposeV3CommandTest" time="0.015">
+  name="runDockerComposeV3 should generate valid Docker Compose v3 files for scenario: exposedports" classname="au.com.agiledigital.toolform.command.generate.docker.GenerateDockerComposeV3CommandTest" time="0.013">
 </testcase>
   <testcase 
-  name="runDockerComposeV3 should generate valid Docker Compose v3 files for scenario: externalports" classname="au.com.agiledigital.toolform.command.generate.docker.GenerateDockerComposeV3CommandTest" time="0.022">
+  name="runDockerComposeV3 should generate valid Docker Compose v3 files for scenario: externalports" classname="au.com.agiledigital.toolform.command.generate.docker.GenerateDockerComposeV3CommandTest" time="0.014">
 </testcase>
   <testcase 
-  name="runDockerComposeV3 should generate valid Docker Compose v3 files for scenario: pathalogicalnaming" classname="au.com.agiledigital.toolform.command.generate.docker.GenerateDockerComposeV3CommandTest" time="0.017">
+  name="runDockerComposeV3 should generate valid Docker Compose v3 files for scenario: pathalogicalnaming" classname="au.com.agiledigital.toolform.command.generate.docker.GenerateDockerComposeV3CommandTest" time="0.012">
 </testcase>
   <testcase 
-  name="runDockerComposeV3 should generate valid Docker Compose v3 files for scenario: realworldsample" classname="au.com.agiledigital.toolform.command.generate.docker.GenerateDockerComposeV3CommandTest" time="0.024">
+  name="runDockerComposeV3 should generate valid Docker Compose v3 files for scenario: realworldsample" classname="au.com.agiledigital.toolform.command.generate.docker.GenerateDockerComposeV3CommandTest" time="0.026">
 </testcase>
   <testcase 
-  name="runDockerComposeV3 should generate valid Docker Compose v3 files for scenario: seti" classname="au.com.agiledigital.toolform.command.generate.docker.GenerateDockerComposeV3CommandTest" time="0.019">
+  name="runDockerComposeV3 should generate valid Docker Compose v3 files for scenario: seti" classname="au.com.agiledigital.toolform.command.generate.docker.GenerateDockerComposeV3CommandTest" time="0.016">
 </testcase>
   <testcase 
-  name="generate docker output with invalid out dir should fail with error" classname="au.com.agiledigital.toolform.command.generate.docker.GenerateDockerComposeV3CommandTest" time="0.026">
+  name="generate docker output with invalid out dir should fail with error" classname="au.com.agiledigital.toolform.command.generate.docker.GenerateDockerComposeV3CommandTest" time="0.023">
 </testcase>
   <testcase 
-  name="writePorts should write ports if exposedPorts is defined" classname="au.com.agiledigital.toolform.command.generate.docker.GenerateDockerComposeV3CommandTest" time="0.005">
+  name="writePorts should write ports if exposedPorts is defined" classname="au.com.agiledigital.toolform.command.generate.docker.GenerateDockerComposeV3CommandTest" time="0.006">
 </testcase>
   <testcase 
-  name="writePorts should not write ports if exposedPorts is defined" classname="au.com.agiledigital.toolform.command.generate.docker.GenerateDockerComposeV3CommandTest" time="0.004">
+  name="writePorts should not write ports if exposedPorts is defined" classname="au.com.agiledigital.toolform.command.generate.docker.GenerateDockerComposeV3CommandTest" time="0.003">
 </testcase>
   <testcase 
-  name="writePorts should not write anything if empty list of ports defined" classname="au.com.agiledigital.toolform.command.generate.docker.GenerateDockerComposeV3CommandTest" time="0.002">
+  name="writePorts should not write anything if empty list of ports defined" classname="au.com.agiledigital.toolform.command.generate.docker.GenerateDockerComposeV3CommandTest" time="0.003">
 </testcase>
   <testcase 
-  name="writeEnvironmentVariables should write environment variables if environment is defined" classname="au.com.agiledigital.toolform.command.generate.docker.GenerateDockerComposeV3CommandTest" time="0.003">
+  name="writeEnvironmentVariables should write environment variables if environment is defined" classname="au.com.agiledigital.toolform.command.generate.docker.GenerateDockerComposeV3CommandTest" time="0.004">
 </testcase>
   <testcase 
   name="writeEnvironmentVariables should not write anything if empty map of environment variables defined" classname="au.com.agiledigital.toolform.command.generate.docker.GenerateDockerComposeV3CommandTest" time="0.003">
@@ -125,7 +125,7 @@ errors="0" failures="0" hostname="DESKTOP-279MANB" name="au.com.agiledigital.too
   name="writeResources should not write anything if an empty list of resources is provided" classname="au.com.agiledigital.toolform.command.generate.docker.GenerateDockerComposeV3CommandTest" time="0.0">
 </testcase>
   <testcase 
-  name="writeComponents should not write anything if an empty list of components is provided" classname="au.com.agiledigital.toolform.command.generate.docker.GenerateDockerComposeV3CommandTest" time="0.0">
+  name="writeComponents should not write anything if an empty list of components is provided" classname="au.com.agiledigital.toolform.command.generate.docker.GenerateDockerComposeV3CommandTest" time="0.001">
 </testcase>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

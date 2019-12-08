@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuite 
-errors="0" failures="0" hostname="DESKTOP-279MANB" name="au.com.agiledigital.toolform.command.generate.kubernetes.minikube.GenerateMinikubeTest" tests="11" time="1.565" timestamp="2019-12-05T14:58:12">
+errors="0" failures="0" hostname="DESKTOP-279MANB" name="au.com.agiledigital.toolform.command.generate.kubernetes.minikube.GenerateMinikubeTest" tests="11" time="1.242" timestamp="2019-12-06T17:11:48">
   <properties>
     <property name="jline.esc.timeout" value="0"> </property>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment">
@@ -86,37 +86,37 @@ errors="0" failures="0" hostname="DESKTOP-279MANB" name="au.com.agiledigital.too
     <property name="sun.cpu.isalist" value=""> </property>
   </properties>
   <testcase 
-  name="runGenerateMinikube should generate valid Kubernetes (Minikube flavour) specs for scenario: endpointroutes" classname="au.com.agiledigital.toolform.command.generate.kubernetes.minikube.GenerateMinikubeTest" time="1.282">
+  name="runGenerateMinikube should generate valid Kubernetes (Minikube flavour) specs for scenario: endpointroutes" classname="au.com.agiledigital.toolform.command.generate.kubernetes.minikube.GenerateMinikubeTest" time="1.0">
 </testcase>
   <testcase 
-  name="runGenerateMinikube should generate valid Kubernetes (Minikube flavour) specs for scenario: environment" classname="au.com.agiledigital.toolform.command.generate.kubernetes.minikube.GenerateMinikubeTest" time="0.021">
+  name="runGenerateMinikube should generate valid Kubernetes (Minikube flavour) specs for scenario: environment" classname="au.com.agiledigital.toolform.command.generate.kubernetes.minikube.GenerateMinikubeTest" time="0.02">
 </testcase>
   <testcase 
-  name="runGenerateMinikube should generate valid Kubernetes (Minikube flavour) specs for scenario: exposedports" classname="au.com.agiledigital.toolform.command.generate.kubernetes.minikube.GenerateMinikubeTest" time="0.019">
+  name="runGenerateMinikube should generate valid Kubernetes (Minikube flavour) specs for scenario: exposedports" classname="au.com.agiledigital.toolform.command.generate.kubernetes.minikube.GenerateMinikubeTest" time="0.014">
 </testcase>
   <testcase 
-  name="runGenerateMinikube should generate valid Kubernetes (Minikube flavour) specs for scenario: externalports" classname="au.com.agiledigital.toolform.command.generate.kubernetes.minikube.GenerateMinikubeTest" time="0.015">
+  name="runGenerateMinikube should generate valid Kubernetes (Minikube flavour) specs for scenario: externalports" classname="au.com.agiledigital.toolform.command.generate.kubernetes.minikube.GenerateMinikubeTest" time="0.016">
 </testcase>
   <testcase 
-  name="runGenerateMinikube should generate valid Kubernetes (Minikube flavour) specs for scenario: pathalogicalnaming" classname="au.com.agiledigital.toolform.command.generate.kubernetes.minikube.GenerateMinikubeTest" time="0.015">
+  name="runGenerateMinikube should generate valid Kubernetes (Minikube flavour) specs for scenario: pathalogicalnaming" classname="au.com.agiledigital.toolform.command.generate.kubernetes.minikube.GenerateMinikubeTest" time="0.016">
 </testcase>
   <testcase 
-  name="runGenerateMinikube should generate valid Kubernetes (Minikube flavour) specs for scenario: persistentvolumes" classname="au.com.agiledigital.toolform.command.generate.kubernetes.minikube.GenerateMinikubeTest" time="0.051">
+  name="runGenerateMinikube should generate valid Kubernetes (Minikube flavour) specs for scenario: persistentvolumes" classname="au.com.agiledigital.toolform.command.generate.kubernetes.minikube.GenerateMinikubeTest" time="0.035">
 </testcase>
   <testcase 
-  name="runGenerateMinikube should generate valid Kubernetes (Minikube flavour) specs for scenario: realworldsample" classname="au.com.agiledigital.toolform.command.generate.kubernetes.minikube.GenerateMinikubeTest" time="0.038">
+  name="runGenerateMinikube should generate valid Kubernetes (Minikube flavour) specs for scenario: realworldsample" classname="au.com.agiledigital.toolform.command.generate.kubernetes.minikube.GenerateMinikubeTest" time="0.023">
 </testcase>
   <testcase 
-  name="runGenerateMinikube should generate valid Kubernetes (Minikube flavour) specs for scenario: seti" classname="au.com.agiledigital.toolform.command.generate.kubernetes.minikube.GenerateMinikubeTest" time="0.03">
+  name="runGenerateMinikube should generate valid Kubernetes (Minikube flavour) specs for scenario: seti" classname="au.com.agiledigital.toolform.command.generate.kubernetes.minikube.GenerateMinikubeTest" time="0.018">
 </testcase>
   <testcase 
-  name="generate minikube output with invalid out dir should fail with error" classname="au.com.agiledigital.toolform.command.generate.kubernetes.minikube.GenerateMinikubeTest" time="0.015">
+  name="generate minikube output with invalid out dir should fail with error" classname="au.com.agiledigital.toolform.command.generate.kubernetes.minikube.GenerateMinikubeTest" time="0.009">
 </testcase>
   <testcase 
-  name="isDiskResourceType should should return true if resource is disk type" classname="au.com.agiledigital.toolform.command.generate.kubernetes.minikube.GenerateMinikubeTest" time="0.015">
+  name="isDiskResourceType should should return true if resource is disk type" classname="au.com.agiledigital.toolform.command.generate.kubernetes.minikube.GenerateMinikubeTest" time="0.01">
 </testcase>
   <testcase 
-  name="isDiskResourceType should should return false if resource is not disk type" classname="au.com.agiledigital.toolform.command.generate.kubernetes.minikube.GenerateMinikubeTest" time="0.003">
+  name="isDiskResourceType should should return false if resource is not disk type" classname="au.com.agiledigital.toolform.command.generate.kubernetes.minikube.GenerateMinikubeTest" time="0.001">
 </testcase>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

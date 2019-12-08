@@ -1,20 +1,20 @@
 [0m[[0m[0minfo[0m] [0m[0m[32mGenerateMinikubeTest:[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mrunGenerateMinikube[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- should generate valid Kubernetes (Minikube flavour) specs for scenario: endpointroutes (1 second, 274 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should generate valid Kubernetes (Minikube flavour) specs for scenario: endpointroutes (1 second, 2 milliseconds)[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mrunGenerateMinikube[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- should generate valid Kubernetes (Minikube flavour) specs for scenario: environment (29 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should generate valid Kubernetes (Minikube flavour) specs for scenario: environment (20 milliseconds)[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mrunGenerateMinikube[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- should generate valid Kubernetes (Minikube flavour) specs for scenario: exposedports (35 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should generate valid Kubernetes (Minikube flavour) specs for scenario: exposedports (14 milliseconds)[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mrunGenerateMinikube[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- should generate valid Kubernetes (Minikube flavour) specs for scenario: externalports (28 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should generate valid Kubernetes (Minikube flavour) specs for scenario: externalports (16 milliseconds)[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mrunGenerateMinikube[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- should generate valid Kubernetes (Minikube flavour) specs for scenario: pathalogicalnaming (47 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should generate valid Kubernetes (Minikube flavour) specs for scenario: pathalogicalnaming (16 milliseconds)[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mrunGenerateMinikube[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- should generate valid Kubernetes (Minikube flavour) specs for scenario: persistentvolumes (232 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should generate valid Kubernetes (Minikube flavour) specs for scenario: persistentvolumes (35 milliseconds)[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mrunGenerateMinikube[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- should generate valid Kubernetes (Minikube flavour) specs for scenario: realworldsample (49 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should generate valid Kubernetes (Minikube flavour) specs for scenario: realworldsample (23 milliseconds)[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mrunGenerateMinikube[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- should generate valid Kubernetes (Minikube flavour) specs for scenario: seti (24 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should generate valid Kubernetes (Minikube flavour) specs for scenario: seti (18 milliseconds)[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mgenerate minikube output with invalid out dir[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- should fail with error (9 milliseconds)[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32misDiskResourceType[0m[0m
